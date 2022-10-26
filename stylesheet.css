@@ -41,6 +41,13 @@
     color: var(--text)!important;
 }
 
+.footer-links>li>a {
+    color: var(--text)!important;
+}
+
+.copyright {
+    color: var(--text)!important;
+}
 
 /*promotion page*/
 .promotions-container {
