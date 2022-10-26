@@ -1,0 +1,57 @@
+:root{
+    --base:#222939;
+    --base-darker:#1A202C;
+    --primary:#2d3443;
+    --complementary:#CAAB72;
+    --complementary-secondary:#D7C095;
+    --red:#C9334E;
+    --space: min(max(12px, 3.5vmin), 30px);
+    --space-s: min(max(8px, 2vmin), 20px);
+    --space-xs: min(max(4px, 1vmin), 10px);
+    --text:#D3D4D7;
+    --radius:20px;
+    --max-width:1360px;
+}
+
+.site-header {
+    background: var(--base-darker)!important;
+    border-color: var(--base-darker)!important;
+}
+.topbar-container {
+    background: var(--base-darker)!important;
+    border-bottom: 1px solid var(--base);
+}
+.site-footer {
+    background: var(--base-darker)!important;
+}
+
+.popular-games {
+    background: transparent!important;
+}
+
+.home-info-container {
+    background: linear-gradient(to right, var(--base-darker) 0%,var(--base) 35%,var(--base) 65%, var(--base-darker) 100%)!important;
+}
+.announcement-container {
+    background-color: var(--complementary)!important;
+    color: var(--base-darker)!important;
+}
+
+.top-menu>li, .top-menu>li[data-active="true"], .top-menu>li:hover {
+    color: var(--text)!important;
+}
+
+
+/*promotion page*/
+.promotions-container {
+    background-color: var(--base-darker)!important;
+}
+
+.promotions-container .standard-side-menu a[data-active="true"], .promotions-container .standard-side-menu a:hover {
+    background-color: var(--base)!important;
+    color: var(--complementary)!important;
+}
+
+.promotions-container .standard-side-menu li a {
+    background-color: var(--base-darker)!important;
+}
